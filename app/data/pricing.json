@@ -1,0 +1,74 @@
+{
+  "products": {
+    "silicone_bracelet_12mm": {
+      "name": "Силіконовий браслет 12 мм",
+      "sizes": ["202x12x2", "180x12x2", "160x12x2"],
+      "branding": "одноколірний друк лого",
+      "tiers": [
+        {"min_qty": 50, "max_qty": 99, "price_per_unit": 17.50},
+        {"min_qty": 100, "max_qty": 199, "price_per_unit": 11.50},
+        {"min_qty": 200, "max_qty": 299, "price_per_unit": 11.00},
+        {"min_qty": 300, "max_qty": 499, "price_per_unit": 10.50},
+        {"min_qty": 500, "max_qty": 999, "price_per_unit": 9.20},
+        {"min_qty": 1000, "max_qty": null, "price_per_unit": 8.50}
+      ],
+      "production_days": {"standard": 14, "urgent": 7}
+    },
+    "silicone_bracelet_5mm": {
+      "name": "Силіконовий браслет 5 мм",
+      "sizes": ["202x5x2", "180x5x2", "160x5x2"],
+      "branding": "одноколірний друк лого",
+      "tiers": [
+        {"min_qty": 50, "max_qty": 99, "price_per_unit": 17.50},
+        {"min_qty": 100, "max_qty": 199, "price_per_unit": 11.50},
+        {"min_qty": 200, "max_qty": 299, "price_per_unit": 11.00},
+        {"min_qty": 300, "max_qty": 499, "price_per_unit": 10.50},
+        {"min_qty": 500, "max_qty": 999, "price_per_unit": 9.20},
+        {"min_qty": 1000, "max_qty": null, "price_per_unit": 8.50}
+      ],
+      "production_days": {"standard": 14, "urgent": 7}
+    },
+    "silicone_bracelet_20mm": {
+      "name": "Силіконовий браслет 20 мм",
+      "sizes": ["202x20x2", "180x20x2", "160x20x2"],
+      "branding": "одноколірний друк лого",
+      "tiers": [
+        {"min_qty": 50, "max_qty": 99, "price_per_unit": 35.00},
+        {"min_qty": 100, "max_qty": 199, "price_per_unit": 23.00},
+        {"min_qty": 200, "max_qty": 299, "price_per_unit": 22.00},
+        {"min_qty": 300, "max_qty": 499, "price_per_unit": 21.00},
+        {"min_qty": 500, "max_qty": 999, "price_per_unit": 18.40},
+        {"min_qty": 1000, "max_qty": null, "price_per_unit": 17.00}
+      ],
+      "production_days": {"standard": 14, "urgent": 7}
+    },
+    "reflective_bracelet_300": {
+      "name": "Світловідбиваючий браслет 300x30 мм",
+      "sizes": ["300x30"],
+      "branding": "кольоровий друк логотипу",
+      "tiers": [
+        {"min_qty": 50, "max_qty": 99, "price_per_unit": 50.00},
+        {"min_qty": 100, "max_qty": 199, "price_per_unit": 48.00},
+        {"min_qty": 200, "max_qty": 499, "price_per_unit": 46.00},
+        {"min_qty": 500, "max_qty": 2999, "price_per_unit": 36.00},
+        {"min_qty": 3000, "max_qty": null, "price_per_unit": 32.00}
+      ],
+      "production_days": {"standard": 10, "urgent": 5}
+    }
+  },
+  "size_to_product_key": {
+    "12": "silicone_bracelet_12mm",
+    "5": "silicone_bracelet_5mm",
+    "20": "silicone_bracelet_20mm",
+    "reflective": "reflective_bracelet_300"
+  },
+  "templates": {
+    "intro": "Я Олег, консультант компанії Silicon.",
+    "company": "Ми компанія Silicon, спеціалізуємося на виготовленні різних видів браслетів, таких як силіконові, RFID, slap, Tyvek та інші. Також пропонуємо нанесення логотипів на продукцію.",
+    "delivery": "Відправлення здійснюється по всій Україні. Можливий самовивіз. Доставка транспортними компаніями (Нова пошта).",
+    "payment_methods": "Оплата: онлайн LiqPay або рахунок PDF для ФОП/ТОВ. Для рахунку потрібні: назва організації, ЄДРПОУ, ІПН (якщо є), адреса. Контрагента шукаємо/створюємо в 1С за ЄДРПОУ без дублікатів.",
+    "manager": "Менеджер компанії Silicon — Дмитро Афонін.",
+    "layout": "Для підготовки макета надішліть логотип у AI, EPS, SVG або PDF, побажання щодо кольору, текст і приклади (якщо є). Якщо логотипу немає — ми можемо допомогти підготувати або адаптувати його для виробництва.",
+    "production_terms": "Строк виготовлення залежить від виду продукції, тиражу, складності нанесення та завантаженості виробництва. Для точного строку повідомте товар, кількість і тип логотипу."
+  }
+}
